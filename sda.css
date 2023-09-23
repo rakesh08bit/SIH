@@ -1,0 +1,275 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+ul{
+    float: right;
+    list-style-type: none;
+    margin-top: 20px;
+}
+.navigation a{
+    display: inline-block;
+}
+.navigation a{
+    text-decoration: none;
+    color:black;
+    padding: 5px;
+    border: 1px solid transparent;
+    transition: 0.5s ease;
+}
+.navigation a{
+  position: relative;
+  font-size: 1.1em;
+  color: black;
+  text-decoration: none;
+  font-weight: 500;
+  margin-right: 15px;
+}
+.navigation .btnlogin-popup{ 
+  width: 130px; 
+  height: 50px; 
+  background: transparent; 
+  border: 2px solid white; 
+  outline: none; 
+  border-radius: 6px; 
+  cursor: pointer; 
+  font-size: 1.1em; 
+  color: white; 
+  font-weight: 500; 
+  margin-left: 20px; 
+  transition: .5s; 
+}
+.navigation .btnlogin-popup:hover{
+  background: white;
+  color:#162938;
+}
+.navigation a:hover{
+    background-color: whitesmoke;
+    color:none;
+}
+    
+    body {
+    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(https://i0.wp.com/calmatters.org/wp-content/uploads/2021/04/library.jpg?fit=1200%2C559&ssl=1);
+    background-size: cover;
+    background-repeat: no-repeat;
+    opacity: 100px;
+    background-attachment: fixed;
+    font-family: "Open Sans", sans-serif;
+    color: #333333;
+  }
+  .box-form {
+    margin: 0 auto;
+    width: 55%;
+    background: transparent;
+    border-radius: 10px;
+    overflow: hidden;
+    display: flex;
+    flex: 1 1 80%;
+    backdrop-filter:blur(20px);
+    box-shadow: 0 0 30px rgba(0,0,0,0.5);
+    align-items: stretch;
+    justify-content: space-between;
+    box-shadow: 0 0 20px 6px #8586c085;
+  }
+  @media (max-width: 800px) {
+    .box-form {
+      flex-flow: wrap;
+      text-align: center;
+      align-content: center;
+      align-items: center;
+    }
+  }
+  .box-form div {
+    height: auto;
+  }
+  .box-form .left {
+    color: #FFFFFF;
+    background-size: cover;
+    width: 55%;
+    background-repeat: no-repeat;
+    background-image: url("https://www.creatrixcampus.com/sites/default/files/2019-05/reasons-why-students-drop-out.jpg");
+    overflow: hidden;
+  }
+  .box-form .left .overlay {
+    padding: 30px;
+    width: 100%;
+    height: 100%;
+    background: #e6dcb5d7;
+    overflow: hidden;
+    box-sizing: border-box;
+  }
+  .box-form .left .overlay h1 {
+    font-size: 10vmax;
+    line-height: 1;
+    font-weight: 900;
+    margin-top: 40px;
+    margin-bottom: 20px;
+  }
+  .box-form .left .overlay span p {
+    margin-top: 30px;
+    font-weight: 900;
+  }
+  .box-form .left .overlay span a {
+    background: #2973c2;
+    color: #FFFFFF;
+
+    margin-top: 10px;
+    padding: 14px 50px;
+    border-radius: 100px;
+    display: inline-block;
+    box-shadow: 0 3px 6px 1px #042d4657;
+  }
+  .box-form .left .overlay span a:last-child {
+    background: #1dcaff;
+    /*margin-left: 30px;*/
+  }
+  .box-form .right {
+    padding: 40px;
+    overflow: hidden;
+  }
+  @media (max-width: 980px) {
+    .box-form .right {
+      width: 100%;
+    }
+  }
+  .box-form .right h5 {
+    font-size: 6vmax;
+    line-height: 0;
+  }
+  .box-form .right p {
+    font-size: 14px;
+    color: #9aa9c6;
+  }
+  .box-form .right .inputs {
+    overflow: hidden;
+  }
+  .box-form .right input {
+    width: 100%;
+    padding: 10px;
+    margin-top: 25px;
+    font-size: 16px;
+    border: none;
+    outline: none;
+    border-bottom: 2px solid #8c9cbc;
+  }
+  .box-form .right .remember-me--forget-password {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .box-form .right .remember-me--forget-password input {
+    margin: 0;
+    margin-right: 7px;
+    width: auto;
+  }
+  .box-form .right button {
+    float:right;
+    color: #fff;
+    font-size: 16px;
+    padding: 12px 35px;
+    border-radius: 50px;
+    display: inline-block;
+    border: 0;
+    outline: 0;
+    box-shadow: 0px 4px 20px 0px #49c628a6;
+    background-image: linear-gradient(135deg, #70F570 10%, #49C628 100%);
+  }
+  
+  
+  .remember-me--forget-password{
+    display: flex;
+    justify-content: space-between;
+    font-size: .9em;
+    color:#70F570;
+    font-weight: 500;
+    margin: -15px 0 15px;
+  }
+  .social-login{
+    position:relative;
+    float: left;
+    width: 100%;
+    height:auto;
+    padding: 10px 0 15px 0;
+    border-bottom: 1px solid #eee;
+  }
+  .social-login a{
+    position:relative;
+    float: left;
+    width:calc(40% - 8px);
+    text-decoration: none;
+    color: #fff;
+    border: 1px solid rgba(0,0,0,0.05);
+    padding: 12px;
+    border-radius: 2px;
+    font-size: 12px;
+    text-transform: uppercase;
+    margin: 0 3%;
+    text-align:center;
+  }
+  .social-login a i{
+    position: relative;
+    float: left;
+    width: 20px;
+    top: 2px;
+  }
+  .social-login a:first-child{
+    background-color: #49639F !important; 
+  }
+  .social-login a:last-child{
+    background-color: rgba(255, 0, 0, 0.662) !important;
+  }
+  .social-login a:first-child:hover{
+    background-color: #4375ec !important; 
+  }
+  .social-login a:last-child:hover{
+    background-color: rgb(255, 0, 0) !important;
+  }
+.sign-optn{
+  display:flex;
+  justify-content: space-between;
+  flex-direction: row;
+}
+.button {
+  cursor: pointer;
+  position: relative;
+  padding: 10px 24px;
+  font-size: 18px;
+  color: rgb(193, 163, 98);
+  border: 2px solid rgb(193, 163, 98);
+  border-radius: 34px;
+  background-color: transparent;
+  font-weight: 600;
+  transition: all 0.3s cubic-bezier(0.23, 1, 0.320, 1);
+  overflow: hidden;
+}
+
+.button::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  margin: auto;
+  width: 50px;
+  height: 50px;
+  border-radius: inherit;
+  scale: 0;
+  z-index: -1;
+  background-color: rgb(49 131 3);
+  transition: all 0.6s cubic-bezier(0.23, 1, 0.320, 1);
+}
+
+.button:hover::before {
+  scale: 3;
+}
+
+.button:hover {
+  color: #212121;
+  scale: 1.1;
+  box-shadow: 0 0px 20px rgba(193, 163, 98,0.4);
+}
+
+.button:active {
+  scale: 1;
+}
+
+
